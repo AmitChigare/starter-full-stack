@@ -4,13 +4,13 @@ import "react-bootstrap";
 const Header = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+      <nav className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">
             Navbar
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarColor01"
@@ -18,41 +18,41 @@ const Header = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarColor01">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">
-                  <i class="fa fa-home m-1" aria-hidden="true"></i>
+          <div className="collapse navbar-collapse" id="navbarColor01">
+            <ul className="navbar-nav me-auto">
+              <li className="nav-item">
+                <a className="nav-link active" href="#">
+                  <i className="fa fa-home m-1" aria-hidden="true"></i>
                   Home
-                  <span class="visually-hidden">(current)</span>
+                  <span className="visually-hidden">(current)</span>
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/pricing">
-                  <i class="fa fa-usd" aria-hidden="true"></i> Pricing
+              <li className="nav-item">
+                <a className="nav-link" href="/pricing">
+                  <i className="fa fa-usd" aria-hidden="true"></i> Pricing
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   Features
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   About
                 </a>
               </li>
             </ul>
-            <form class="d-flex">
+            <form className="d-flex">
               <input
-                class="form-control me-sm-2"
+                className="form-control me-sm-2"
                 type="search"
                 placeholder="Search"
               />
               <button
-                class="btn btn-secondary my-2 my-sm-0"
+                className="btn btn-secondary my-2 my-sm-0"
                 type="submit"
                 fdprocessedid="9215ej"
               >
